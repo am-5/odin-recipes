@@ -2,33 +2,50 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1{
+.title{
     background-color: red;
     color:yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.content{
+    background-color: hsla(0 010% 90%);
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description{
+    align-items: center;
+    display: flex;
+}
+
+.food-image{
+    padding-left: 1px;
+    max-width: 40%;
 }
 
 li{
-    font-size: 18px;
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 a:hover{
     color: green;
 }
 
-ul{
-    background-color: hsla(0 010% 90%);
-}
-ol{
-    background-color: hsla(0 010% 90%);
-}
 
-h2{
+.subtitle{
     background-color: red;
     color:yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 02px 8px;
+
 }
+
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
